@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: antiquewhite;
+    font-family: cursive;
+    height: 630px;
+    margin: 5px;
+    padding: 1px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: cadetblue;
+    height: 60px;
+    width: 95%;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-content: center;
+}
+#Encabezado{
+    background: whitesmoke;
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: small;
+}
+#Menu {
+    background: whitesmoke;
+    height: 30%;
+    width: 35%;
+    border: 1px solid black;
+    display: flex;
+    margin-left: 5px;
+}
+
+#Redes {
+    background: whitesmoke;
+    height: 100%;
+    width: 50%;
+    padding-right: 5px;
+    border: 1px solid black;
+}
+
+#Menu ul li {
+    display: inline;
+    list-style: none;
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+#Redes ul li {
+    list-style: none;
+    text-align: right;
+    font-size: small;
+    padding-bottom: 1px;
+}
+
+main {
+    background: whitesmoke;
+    border: 1px solid black;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section {
+    background: rgb(241, 154, 154);
+    border: 1px solid black;
+    width: 60%;
+    height: 100%;
+    text-align:right;
+    padding: 10px;
+}
+
+footer {
+    background: maroon;
+    border: 1px solid black;
+    width: 95%;
+    text-align: center;
+    font-size: small;
+    color: azure;
+}
